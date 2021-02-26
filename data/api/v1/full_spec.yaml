@@ -4858,6 +4858,10 @@ components:
           format: int64
           nullable: true
           type: integer
+        groupby_simple_monitor:
+          description: Whether the log alert monitor triggers a single alert or multiple
+            alerts when any group breaches a threshold.
+          type: boolean
         include_tags:
           default: true
           description: 'A Boolean indicating whether notifications from this monitor
